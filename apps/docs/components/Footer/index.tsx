@@ -22,7 +22,7 @@ const Footer = (props: Props) => {
          Enhanced by{" "}
          </a>
         <a className="hover:text-bhagwa-600"
-          href="https://github.com/jaibhedia"
+          href="https://github.com/jaibhelia"
         >
          Shantanu Swami
         </a>

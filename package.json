@@ -43,5 +43,8 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "npm@8.1.4"
+  "packageManager": "npm@8.1.4",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
 }

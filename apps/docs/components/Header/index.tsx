@@ -32,7 +32,7 @@ export default function Header() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/jaibhedia"
+                    href="https://github.com/jaibhelia"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-bhagwa-700 bg-bhagwa-300 hover:bg-bhagwa-400 md:py-4 md:text-lg md:px-10"
                   >
                     View Source
@@ -60,7 +60,7 @@ export default function Header() {
                 {" "}and Enhanced by
                 </a>
                 <a
-                  href="https://github.com/jaibhedia"
+                  href="https://github.com/jaibhelia"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

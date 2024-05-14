@@ -26,7 +26,7 @@ test("test eatTokenAndForwardLookahead success", () => {
     tokenExecutor.eatTokenAndForwardLookahead(TokenTypes.HI_BHAI_TYPE)
   ).toStrictEqual({
     type: TokenTypes.HI_BHAI_TYPE,
-    value: "hedi bro,",
+    value: "heli bro,",
   });
 
   expect(tokenizerMock.getNextToken).toHaveBeenCalledTimes(1);

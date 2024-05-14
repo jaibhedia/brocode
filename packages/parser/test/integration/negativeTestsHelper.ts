@@ -76,7 +76,7 @@ export const NegativeStatementTests = [
     name: "empty print statement, should throw an exception",
     input: `
         hi bro
-        hedi bro ;
+        heli bro ;
         aytu bro
       `,
     output: SyntaxError,
@@ -85,7 +85,7 @@ export const NegativeStatementTests = [
     name: "print statement without semi colon, should throw an exception",
     input: `
         hi bro
-        hedi bro 478
+        heli bro 478
         aytu bro
       `,
     output: SyntaxError,
@@ -94,7 +94,7 @@ export const NegativeStatementTests = [
     name: "print statement with space separated values, should throw an exception",
     input: `
         hi bro
-        hedi bro sahi galat;
+        heli bro sahi galat;
         aytu bro
       `,
     output: SyntaxError,
@@ -103,7 +103,7 @@ export const NegativeStatementTests = [
     name: "print statement test with unknown thing printing, should throw an exception",
     input: `
         hi bro
-        hedi bro ~!*;
+        heli bro ~!*;
         aytu bro
       `,
     output: SyntaxError,
@@ -112,7 +112,7 @@ export const NegativeStatementTests = [
     name: "print statement test with no other token, should throw an exception",
     input: `
         hi bro
-        hedi bro a
+        heli bro a
       `,
     output: SyntaxError,
   },

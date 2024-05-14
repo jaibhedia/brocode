@@ -1,6 +1,6 @@
 <h1 align="center">Bro</h1>
 <p align="center">
-<a href="https://www.github.com/jaibhedia/brocode"><img alt="Build" src="https://img.shields.io/badge/website-github.com/jaibhedia/brocode-orange"/></a>
+<a href="https://www.github.com/jaibhelia/brocode"><img alt="Build" src="https://img.shields.io/badge/website-github.com/jaibhelia/brocode-orange"/></a>
 <a href="https://bhailang.js.org/"><img alt="Build" src="https://img.shields.io/badge/website-bhailang.js.org-orange"/></a>
 <a href="https://www.npmjs.com/package/bhailang"><img alt="Build" src="https://img.shields.io/badge/npm-bhailang-orange"/></a>
   
@@ -27,7 +27,7 @@ You can also try out your code on <a href="https://bhailang.js.org/#playground">
 
 ```
 hi bro
-  hedi bro "Hello bhai";
+  heli bro "Hello bhai";
 aytu bro
 
 ```
@@ -92,18 +92,18 @@ aytu bro
 ```
 
 <h3 align="center">Built-ins</h3>
-<p align="center">Use <code>hedi bro</code> to print anything to console.</p>
+<p align="center">Use <code>heli bro</code> to print anything to console.</p>
 
 ```
 
 hi bro
-  hedi bro "Hello World";
+  heli bro "Hello World";
   bhai ye hai a = 10;
   {
     bhai ye hai b = 20;
-    hedi bro a + b;
+    heli bro a + b;
   }
-  hedi bro 5, 'ok', nalla , sahi , galat;
+  heli bro 5, 'ok', nalla , sahi , galat;
 aytu bro
 ```
 
@@ -115,11 +115,11 @@ aytu bro
 hi bro
   bhai ye hai a = 10;
   agar bhai (a < 20) {
-    hedi bro "a is less than 20";
+    heli bro "a is less than 20";
   } nahi to bhai ( a < 25 ) {
-    hedi bro "a is less than 25";
+    heli bro "a is less than 25";
   } warna bhai {
-    hedi bro "a is greater than or equal to 25";
+    heli bro "a is greater than or equal to 25";
   }
 aytu bro
 ```
@@ -135,20 +135,21 @@ hi bro
   jab tak bhai (a < 10) {
    a += 1;
    agar bhai (a == 5) {
-    hedi bro "andar se hedi bro ", a;
+    heli bro "andar se heli bro ", a;
     agla dekh bhai;
    }
    agar bhai (a == 6) {
     bas kar bhai;
    }
-   hedi bro a;
+   heli bro a;
   }
-  hedi bro "done";
+  heli bro "done";
 aytu bro
 ```
 
 <h2 align="center">Development</h2>
-<p align="center">You can explore abstract syntax tree(AST) of bhailang <a href="https://bhailang-ast.netlify.app/" target="_blank">here</a>.</p>
+<p align="left">Kannada Language Translation Credits: Kushal M Handigund & Vasudha J Bhat</p>
+<p align="left">You can explore abstract syntax tree(AST) of bhailang <a href="https://bhailang-ast.netlify.app/" target="_blank">here</a>.</p>
 
 
 

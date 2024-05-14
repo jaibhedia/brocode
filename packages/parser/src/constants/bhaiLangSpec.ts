@@ -5,7 +5,7 @@ export const TokenTypes = {
 
   BYE_BHAI_TYPE: "aytu bro",
 
-  BOL_BHAI_TYPE: "hedi bro",
+  BOL_BHAI_TYPE: "heli bro",
 
   BHAI_YE_HAI_TYPE: "bhai ye hai",
 
@@ -81,7 +81,7 @@ export const SPEC = [
   //Keywords
   { regex: /^\bhi bro\b/, tokenType: TokenTypes.HI_BHAI_TYPE },
   { regex: /^\baytu bro\b/, tokenType: TokenTypes.BYE_BHAI_TYPE },
-  { regex: /^\bhedi bro\b/, tokenType: TokenTypes.BOL_BHAI_TYPE },
+  { regex: /^\bheli bro\b/, tokenType: TokenTypes.BOL_BHAI_TYPE },
   { regex: /^\bbhai ye hai\b/, tokenType: TokenTypes.BHAI_YE_HAI_TYPE },
   { regex: /^\bagar bhai\b/, tokenType: TokenTypes.AGAR_BHAI },
   { regex: /^\bnahi to bhai\b/, tokenType: TokenTypes.NAHI_TO_BHAI },

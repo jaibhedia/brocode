@@ -65,18 +65,18 @@ aytu bro
     name: "Built-ins",
     description: (
       <>
-        Use <code className="language-cpp">hedi bro</code> to print anything to
+        Use <code className="language-cpp">heli bro</code> to print anything to
         console.
       </>
     ),
     code: `hi bro
-    hedi bro "Hello World";
+    heli bro "Hello World";
     bhai ye hai a = 10;
     {
        bhai ye hai b = 20;
-       hedi bro a + b;
+       heli bro a + b;
     }
-    hedi bro 5, 'ok', nalla , sahi , galat;
+    heli bro 5, 'ok', nalla , sahi , galat;
 aytu bro
     `,
   },
@@ -90,11 +90,11 @@ aytu bro
     code: `hi bro
     bhai ye hai a = 10;
     agar bhai (a < 20) {
-      hedi bro "a is less than 20";
+      heli bro "a is less than 20";
     } nahi to bhai ( a < 25 ) {
-      hedi bro "a is less than 25";
+      heli bro "a is less than 25";
     } warna bhai {
-      hedi bro "a is greater than or equal to 25";
+      heli bro "a is greater than or equal to 25";
     }
 aytu bro
     `
@@ -112,15 +112,15 @@ aytu bro
     jab tak bhai (a < 10) {
       a += 1;
       agar bhai (a == 5) {
-        hedi bro "andar se hedi bro ", a;
+        heli bro "andar se heli bro ", a;
         agla dekh bhai;
       }
       agar bhai (a == 6) {
         bas kar bhai;
       }
-      hedi bro a;
+      heli bro a;
     }
-    hedi bro "done";
+    heli bro "done";
 aytu bro
     `
   }

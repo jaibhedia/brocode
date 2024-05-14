@@ -45,9 +45,9 @@ test("test redeclaring & printing variables in different scopes", () => {
     bhai ye hai a = 4;
     {
       bhai ye hai a = 90;
-      hedi bro a;
+      heli bro a;
     }
-    hedi bro a;
+    heli bro a;
     aytu bro;`)
   ).not.toThrowError();
   expect(console.log).toHaveBeenCalledWith("90");
@@ -60,9 +60,9 @@ test("test assigning variable in parent scope", () => {
     bhai ye hai a = 4;
     {
       a = 90;
-      hedi bro a;
+      heli bro a;
     }
-    hedi bro a;
+    heli bro a;
     aytu bro;`)
   ).not.toThrowError();
   expect(console.log).toHaveBeenCalledWith("90");
@@ -74,9 +74,9 @@ test("test accessing variable in parent scope", () => {
     interpreter.interpret(`hi bro;
     bhai ye hai a = 4;
     {
-      hedi bro a;
+      heli bro a;
     }
-    hedi bro a;
+    heli bro a;
     aytu bro;`)
   ).not.toThrowError();
   expect(console.log).toHaveBeenCalledWith("4");
@@ -89,7 +89,7 @@ test("whileStatement test with 2 times loop, should success", () => {
     hi bro;
     bhai ye hai a = 0;
     jab tak bhai (a < 2) {
-      hedi bro "bhai";
+      heli bro "bhai";
       a += 1;
     }
     aytu bro;`)
@@ -105,7 +105,7 @@ test("whileStatement test with nested loops - 2, should success", () => {
     bhai ye hai a = 0, b = 0;
     jab tak bhai (a < 2) {
       jab tak bhai (b < 1) {
-        hedi bro "bhai";
+        heli bro "bhai";
         b += 1;
       }
       a += 1;
@@ -124,7 +124,7 @@ test("whileStatement test with nested loops - 3, should success", () => {
     jab tak bhai (a < 2) {
       bhai ye hai b = 0;
       jab tak bhai (b < 2) {
-        hedi bro "bhai";
+        heli bro "bhai";
         b += 1;
         agar bhai (b == 1)
           bas kar bhai;
@@ -145,13 +145,13 @@ test("whileStatement test with nested loops - 4, should success", () => {
     hi bro
     bhai ye hai a = 0;
     jab tak bhai (a < 10) {
-      hedi bro a;
+      heli bro a;
       a += 1;
       agar bhai (a == 6) {
         bas kar bhai;
       }
     }
-    hedi bro "done";
+    heli bro "done";
     aytu bro
     `)
   ).not.toThrowError();
@@ -169,12 +169,12 @@ test("whileStatement test with nested loops - 5, should success", () => {
     hi bro
     bhai ye hai a = 0;
     jab tak bhai (a < 10) {
-      hedi bro a;
+      heli bro a;
       a += 1;
       agar bhai (a == 6)
         bas kar bhai;
     }
-    hedi bro "done";
+    heli bro "done";
     aytu bro
     `)
   ).not.toThrowError();
@@ -192,14 +192,14 @@ test("whileStatement test with nested loops - 6, should success", () => {
     hi bro
     bhai ye hai a = 0;
     jab tak bhai (a < 10) {
-      hedi bro a;
+      heli bro a;
       a += 1;
       agar bhai (a == 3) {
         bas kar bhai;
       }
-      hedi bro "2 baar hi chapunga";
+      heli bro "2 baar hi chapunga";
     }
-    hedi bro "done";
+    heli bro "done";
     aytu bro
     `)
   ).not.toThrowError();
@@ -216,7 +216,7 @@ test("whileStatement test with infinite loop, should throw runtime exception aft
     hi bro
     
     jab tak bhai (sahi) {
-      hedi bro "bhai";
+      heli bro "bhai";
     }
     aytu bro;
     
@@ -233,13 +233,13 @@ test("if-else ladders one after the other, should be evaluated separately", () =
     hi bro
     bhai ye hai x = 6;
     agar bhai (x < 5) {
-      hedi bro "x < 5";
+      heli bro "x < 5";
     } nahi to bhai (x < 8) {
-      hedi bro "x < 8";
+      heli bro "x < 8";
     } agar bhai (x < 4) {
-      hedi bro "x < 4";
+      heli bro "x < 4";
     } warna bhai {
-      hedi bro "x > 4";
+      heli bro "x > 4";
     }
     aytu bro;
     
@@ -255,14 +255,14 @@ test("if-else ladders one after the other, should be evaluated separately", () =
 //     hi bro
 //     bhai ye hai a = 0;
 //     jab tak bhai (a < 10) {
-//       hedi bro a;
+//       heli bro a;
 //       a += 1;
 //       agar bhai (a == 3) {
 //         bas kar bhai;
 //       }
-//       hedi bro "2 baar hi chapunga";
+//       heli bro "2 baar hi chapunga";
 //     }
-//     hedi bro "done";
+//     heli bro "done";
 //     aytu bro
 //     `);
 // });
