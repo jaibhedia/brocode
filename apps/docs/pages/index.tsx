@@ -11,12 +11,12 @@ export default function Docs() {
     <div className="bg-background">
       <Head>
         <title>BroCode - A toy programming language</title>
-        <meta property="og:title" content="Bhailang - A toy programming language based on an inside joke" key="title" />
+        <meta property="og:title" content="BroCode - A toy programming language based on an inside joke" key="title" />
         <meta property="og:type" content="website" key="type" />
         <meta property="og:url" content="https://bhailang.js.org" key="url" />
-        <meta property="og:description" content="Bhailang is dynamically typed toy programming language, based on an inside joke, written in Typescript. Created by Aniket Singh and Rishabh Tripathi." key="description" />
-        <meta name="description" content="Bhailang is dynamically typed toy programming language, based on an inside joke, written in Typescript. Created by Aniket Singh and Rishabh Tripathi." />
-        <meta property="og:site_name" content="Bhailang Documentation" key="siteName" />
+        <meta property="og:description" content="BroCode is dynamically typed toy programming language, based on an inside joke, written in Typescript. Created by Aniket Singh and Rishabh Tripathi." key="description" />
+        <meta name="description" content="BroCode is dynamically typed toy programming language, based on an inside joke, written in Typescript. Created by Aniket Singh and Rishabh Tripathi." />
+        <meta property="og:site_name" content="Brocode Documentation" key="siteName" />
       </Head>
       <Header />
       <Code />
