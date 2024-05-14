@@ -1,6 +1,5 @@
 [build]
-  publish = "out"
-command = "npm run build-and-export"
+
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
