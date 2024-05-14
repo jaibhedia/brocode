@@ -12,7 +12,6 @@
     "lint": "turbo run lint",
     "test": "turbo run test --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "export": "next export"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.2.0",
