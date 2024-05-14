@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "apps/docs/package.json",
+        "use": "@vercel/node",
+        "config": {
+          "includeFiles": "apps/docs/**/*"
+        }
+      }
+    ],
+    "scripts": {
+      "build": "npm install && npm run build"
+    }
+  }
+  
