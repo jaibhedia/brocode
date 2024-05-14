@@ -11,7 +11,9 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "test": "turbo run test --parallel",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "build": "npm run build && npm run export",
+    "export": "next export"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.2.0",
