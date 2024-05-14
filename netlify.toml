@@ -1,5 +1,0 @@
-[build]
-
-
-[context.production.environment]
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
