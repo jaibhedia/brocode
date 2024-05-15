@@ -1,4 +1,4 @@
-<h1 align="center">Bro</h1>
+<h1 align="center">Bro Code</h1>
 <p align="center">
 <a href="https://www.github.com/jaibhelia/brocode"><img alt="Build" src="https://img.shields.io/badge/website-github.com/jaibhelia/brocode-orange"/></a>
 <a href="https://bhailang.js.org/"><img alt="Build" src="https://img.shields.io/badge/website-bhailang.js.org-orange"/></a>
