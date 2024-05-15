@@ -1,5 +1,5 @@
 {
   "extends": "tsconfig/base.json",
-  "include": [ "**/*.ts" ],
+  "include": [ "**/*.ts", "test/tokenizer/tokenizerImpl.test.ts" ],
   "exclude": ["node_modules", "dist"]
 }
