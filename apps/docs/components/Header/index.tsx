@@ -13,7 +13,7 @@ export default function Header() {
                 <BhaiLangLogo />
               </div>
               <p className="mt-3 text-center text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                An enhanced toy programming language based on bhailang
+                Enhanced programming language based on bhailang
               </p>
               <div className="prose text-center pt-4 pb-4">
                 {" "}
