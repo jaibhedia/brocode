@@ -60,7 +60,7 @@ export default function Header() {
                 {" "}and
                 </a>
                 <a
-                  href="https://github.com/jaibhelia"
+                  href="https://github.com/jaibhedia"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
