@@ -57,14 +57,14 @@ export default function Header() {
                   <span className="text-bhagwa-700"> @ristri</span>
                 </a>
                 <a className="text-center text-gray-300 pt-6">
-                {" "}and Enhanced by
+                {" "}and
                 </a>
                 <a
                   href="https://github.com/jaibhelia"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-bhagwa-700"> @shantanuswami </span>
+                  <span className="text-bhagwa-700"> @shantanu </span>
                 </a>
               </div>
             </div>
