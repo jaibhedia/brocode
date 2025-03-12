@@ -148,7 +148,7 @@ aytu bro
 ```
 
 <h2 align="center">Development</h2>
-<p align="left">Kannada Language Translation Credits: Kushal M Handigund & Vasudha J Bhat</p>
+<p align="left">Kannada Language Translation Credits: Kushal M Handigund</p>
 <p align="left">You can explore abstract syntax tree(AST) of bhailang <a href="https://bhailang-ast.netlify.app/" target="_blank">here</a>.</p>
 
 
